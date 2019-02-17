@@ -18,7 +18,7 @@ A number of files are downloaded from zipped files, but the key ones used in the
 
 * Small Area Statistics: **SAPS2016_SA2017.csv** This contains the census statistics for each small area in ireland for each question in the census questionnaire
 * Glossary: **SAPS_2016_Glossary.xlsx** This contains a description of the column names which are otherwise not interpretable. This will be used to create the user selections for our Shiny Apps
-* Shapefile: **Small_Areas__Generalised_50m__OSi_National_Boundaries.shp** This contains the boundary file for each small area. This is used to calculate the centroid of each small area as an X-Y co-ordinate which will allow use to plot the response in each small area. We are also able to calculate the area of each small area, and will use this to vary the size of the circle plotted in leaflet - as well as some additional information to make the plots more readable. 
+* Shapefile: **Small_Areas__Generalised_50m__OSi_National_Boundaries.shp** This contains the boundary file for each small area. This is used to calculate the centroid of each small area as an X-Y co-ordinate which will allow us to plot the response of each small area in the appropriate location. We are also able to calculate the area of each small area, and will use this to vary the size of the circle plotted in leaflet - as well as some additional information to make the plots more readable. 
 
 ### Output Files: Used in Shiny App
 There are 3 files output for use in the shiny app

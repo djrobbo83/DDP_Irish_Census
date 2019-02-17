@@ -7,6 +7,7 @@ ui.R and server.R form part of the shiny app hosted at  [https://djrobbo83.shiny
 
 ## Data Preparation (Data_Preparation_DDP_Irish_Census.R)
 **NOTE:** You do not need to run this step to run the Shiny App, see the section *ui.R | server.R: Using the Shiny App Locally* below, however I've included this program for transparency on the transformations applied to the raw census data and also to make my work fully reproducible.
+
 This program describes the steps taken to import the raw irish census data available at: [www.cso.ie](https://cso.ie/en/census/census2016reports/census2016smallareapopulationstatistics/). 
 
 *Please note you will need to set your working directory accordingly if running this program*
